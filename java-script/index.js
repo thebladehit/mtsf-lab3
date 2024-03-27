@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
   res.end('Hello there');
 });
 
-app.get('bye', (req, res) => {
+app.get('/bye', (req, res) => {
   res.end('bye');
 });
 
